@@ -1,0 +1,108 @@
+{
+  "brand": "LUMAVERSA",
+  "nav": [
+    { "label": "Workshops", "href": "#workshops" },
+    { "label": "Servicios", "href": "#servicios" },
+    { "label": "Nosotros", "href": "#nosotros" },
+    { "label": "Galería", "href": "#galeria" }
+  ],
+  "hero": {
+    "bgImage": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1500&auto=format&fit=crop",
+    "titleLines": ["IA", "SOLUTIONS", "FOR", "TOMORROW"],
+    "subtitle": ["Consultoría","Desarrollo de software","Automatización inteligente","Formación ejecutiva"]
+  },
+  "workshops": [
+    {
+      "name": "Anna Hopkins",
+      "role": "Product Coach",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=256&auto=format&fit=crop",
+      "description": "Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",
+      "rating": 5
+    },
+    {
+      "name": "Miles Carter",
+      "role": "Tech Lead",
+      "avatar": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?q=80&w=256&auto=format&fit=crop",
+      "description": "Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",
+      "rating": 5
+    },
+    {
+      "name": "Julia Roe",
+      "role": "Data Trainer",
+      "avatar": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=256&auto=format&fit=crop",
+      "description": "Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",
+      "rating": 5
+    }
+  ],
+  "services": {
+    "tiers": [
+      {
+        "id": "free", "name": "FREE", "price": "0", "period": "Per Month",
+        "features": ["Unlimited product updates", "Unlimited product updates", "1GB Cloud storage"],
+        "cta": { "label": "Try for free", "href": "#contacto" }
+      },
+      {
+        "id": "standard", "name": "STANDARD", "price": "9.99", "period": "Per Month", "highlighted": true,
+        "features": ["Unlimited product updates", "Unlimited product updates", "1GB Cloud storage"],
+        "cta": { "label": "Try for free", "href": "#contacto" }
+      },
+      {
+        "id": "premium", "name": "PREMIUM", "price": "19.99", "period": "Per Month",
+        "features": ["Unlimited product updates", "Unlimited product updates", "1GB Cloud storage"],
+        "cta": { "label": "Try for free", "href": "#contacto" }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "g1", "category": "Business", "title": "They're Back! Kennedy Darling",
+      "author": "Craig Bator", "date": "27 Dec 2020",
+      "image": "https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "id": "g2", "category": "Business", "title": "Swiss Authorities Say Uber",
+      "author": "Craig Bator", "date": "29 Dec 2020",
+      "image": "https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "id": "g3", "category": "Business", "title": "Tourism In Dubai Is Booming By International Tourist",
+      "author": "Craig Bator", "date": "27 Dec 2020",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "about": {
+    "title": "NOSOTROS",
+    "paragraphs": [
+      "The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th century, which gave some indications about how small things do behave, produced an increasing confusion which was Heisenberg, and Born.",
+      "The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th century, which gave some indications about how small things do behave, produced an increasing confusion which was Heisenberg, and Born."
+    ],
+    "image": "https://images.unsplash.com/photo-1536890274780-4b4f3b1d2c04?q=80&w=700&auto=format&fit=crop"
+  },
+  "footer": {
+    "newsletterTitle": "Subscribe For Latest Newsletter",
+    "logos": [
+      "https://dummyimage.com/110x34/edf2f7/999&text=hooli",
+      "https://dummyimage.com/90x34/edf2f7/999&text=lyft",
+      "https://dummyimage.com/100x34/edf2f7/999&text=leaf",
+      "https://dummyimage.com/110x34/edf2f7/999&text=stripe",
+      "https://dummyimage.com/90x34/edf2f7/999&text=aws",
+      "https://dummyimage.com/95x34/edf2f7/999&text=reddit"
+    ],
+    "columns": [
+      { "title": "Company Info", "items": [
+        { "label": "Nosotros", "href": "#nosotros" },
+        { "label": "Servicios", "href": "#servicios" },
+        { "label": "Workshops", "href": "#workshops" },
+        { "label": "Galería", "href": "#galeria" }
+      ]},
+      { "title": "Legal", "items": [{ "label": "Aviso legal", "href": "#" }] }
+    ],
+    "contact": { "phone": "(480) 555-0103", "address": "4577 Washington Ave.", "email": "debra.holt@example.com" },
+    "social": [
+      { "platform": "facebook", "href": "#" },
+      { "platform": "instagram", "href": "#" },
+      { "platform": "twitter", "href": "#" }
+    ],
+    "copyright": "Copyright © 2025 LumaVersa - All Rights"
+  }
+}
