@@ -2,16 +2,10 @@ import { Card, Typography, Button, Input } from '@material-tailwind/react';
 import type { Footer as FooterType } from '../types';
 
 
-export default function FooterMT({ newsletterTitle, logos, columns, contact, social, copyright }: FooterType) {
+export default function FooterMT({ newsletterTitle, columns, contact, social, copyright }: FooterType) {
     return (
         <footer id="contacto" className="py-16">
             <div className="container grid max-w-container gap-8">
-                <div className="flex flex-wrap items-center justify-between gap-6">
-                    {logos.map((src, i) => (
-                        <img key={i} src={src} alt="" className="h-[34px]" />
-                    ))}
-                </div>
-
 
                 <Card shadow={true} className="grid items-center gap-4 bg-gradient-to-r from-brand-700 to-sky-500 p-5 text-white md:grid-cols-2">
                     <Typography variant="h6" className="m-0">{newsletterTitle}</Typography>
@@ -20,7 +14,6 @@ export default function FooterMT({ newsletterTitle, logos, columns, contact, soc
                         <Button color="white" className="text-brand-700">Subscribe</Button>
                     </form>
                 </Card>
-
 
                 <Card shadow={true} className="p-6">
                     <div className="grid gap-6">

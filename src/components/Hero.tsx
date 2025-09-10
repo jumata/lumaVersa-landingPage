@@ -8,7 +8,7 @@ export default function Hero({ bgImage, titleLines, subtitle }: HeroType) {
         <img src={bgImage} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover" />
         <div className="container relative py-16">
           <div className="bg-white/70 rounded-xl shadow-elev p-[min(6vw,40px)]">
-            <h1 className="font-bold leading-none tracking-wide text-center text-brand-700 [font-size:clamp(36px,7vw,92px)]">
+            <h1 className="font-monoton font-normal leading-[0.95] tracking-[0.06em] text-center text-brand-700 [font-size:clamp(40px,8vw,98px)]">
               {titleLines.map((t, i) => (
                 <span key={i} className="block">{t}</span>
               ))}

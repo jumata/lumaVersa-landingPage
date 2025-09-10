@@ -9,7 +9,7 @@ export default function HeroMT({ bgImage, titleLines, subtitle }: HeroType) {
                 <img src={bgImage} alt="" aria-hidden className="absolute inset-0 h-full w-full object-cover" />
                 <div className="container relative py-16">
                     <Card className="bg-white/70 p-[min(6vw,40px)]">
-                        <Typography as="div" className="text-center text-brand-700 font-extrabold tracking-wide [font-size:clamp(36px,7vw,92px)]">
+                        <Typography as="div" className="font-monoton font-thin leading-[0.82] tracking-[0.10em] text-center text-brand-600 font-light tracking-wide [font-size:clamp(36px,7vw,92px)]">
                             {titleLines.map((t, i) => (
                                 <span key={i} className="block">{t}</span>
                             ))}
