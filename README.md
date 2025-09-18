@@ -9,6 +9,8 @@ Landing page moderna construida con **React + TypeScript + Vite**, **Tailwind CS
 <img width="511" height="363" alt="image" src="https://github.com/user-attachments/assets/c37bc555-437e-46a6-b4d8-101354cde6e3" />
 
 ---
+<img width="813" height="986" alt="image" src="https://github.com/user-attachments/assets/2a5e6145-d8e0-405b-b00e-e3a1a8d6612b" />
+
 
 ## ✨ Características
 
